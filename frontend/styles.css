@@ -1,0 +1,103 @@
+/* Estilos CSS para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: #fff;
+    color: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    transition: height 0.3s;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar.scrolled {
+    height: 120px;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #000;
+    margin: 0;
+}
+
+.nav-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav-link {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+#inicio {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin-top: 60px;
+}
+
+.logo-grande {
+    max-width: 100%;
+    height: auto;
+    opacity: 1;
+    transition: opacity 0.3s;
+    background-color: transparent;
+}
+
+#logoPequeno {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.espacio {
+    height: 200px;
+}
+
+.logo-pequeno {
+    max-width: 400px;
+    /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    background-color: transparent;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.derechos {
+    font-size: 14px;
+    margin: 0;
+}
+
+.derechos a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.derechos a:hover {
+    text-decoration: underline;
+}

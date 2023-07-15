@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    text-align: center;
+}
+
+.reserva-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.form-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-list li label {
+    min-width: 100px;
+    font-weight: bold;
+}
+
+.form-list li input {
+    flex: 1;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.submit-button {
+    margin-top: 10px;
+    align-self: center;
+}
+
+.back-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.back-button i {
+    margin-right: 5px;
+}

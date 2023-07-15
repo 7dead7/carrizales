@@ -1,0 +1,83 @@
+/* Estilos CSS para la página de contacto */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+.nav-links a:hover {
+  color: #333;
+}
+
+#inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.logo-grande {
+  max-width: 300px;
+  height: auto;
+}
+
+.logo-pequeno {
+  max-width: 200px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.contacto-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contacto-info p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.derechos {
+  font-size: 14px;
+  color: #666;
+}
